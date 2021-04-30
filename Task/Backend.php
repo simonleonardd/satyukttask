@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -51,7 +51,7 @@
             </tr>
         </thead>
         <tbody>";
-for ($i = 0; $i <= 37; $i++) {
+for ($i = 1; $i <= 37; $i++) {
     $confirmed =  $response->statewise[$i]->confirmed;
     $recovered = $response->statewise[$i]->recovered;
     $deaths =  $response->statewise[$i]->deaths;
